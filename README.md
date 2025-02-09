@@ -197,7 +197,7 @@ import Swiper from 'react-id-swiper';
 const ManipulatingSwiper = () => {
   const ref = useRef(null);
 
-  const ref = useRef(null);
+  const ref = useRef(null); // Нужно удалить
 
   const goNext = () => {
     if (ref.current !== null && ref.current.swiper !== null) {
